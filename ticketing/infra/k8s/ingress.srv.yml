@@ -18,10 +18,3 @@ spec:
                 name: auth-srv
                 port:
                   number: 3000
-          - path: /api/me
-            pathType: Prefix
-            backend:
-              service:
-                name: auth-srv
-                port:
-                  number: 3000
